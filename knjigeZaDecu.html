@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domaci-CSS,HTML,JAVA SCRIPT,JQURY</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+  <script src="javaScript/javaScript.js"></script>
+    <img id="bookMark" src="slike/bookmark.png" >
+    <h3>Online prodavnica vaših omiljenih knjiga</h3>
+
+    <ul id="meni">
+        <li><a href="domaci.html">Početna strana</a></li>
+        <li class="trenutnaStrana"><a href="knjigeZaDecu.html">Knjige za decu</a></li>
+        <li><a href="Akcije.html">Akcije</a></li>
+        <li><a href="korpa.html">Korpa</a></li>
+        <li><a href="informacije.html">Informacije</a></li>
+      </ul>
+
+      <div class="knjiga">
+        <img id="s1" src="slike/hajdi.jpg">
+        <p name="nazivKnjige">Hajdi<br>Autor: Johana Špiri</p>
+        <h4>Cena: 560,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Hajdi<br>Autor: Johana Špiri')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s2"src="slike/knjigaZaMarka.jpg">
+        <p name="nazivKnjige">Knjiga za Marka<br>Autor: Svetlana Velmar-Janković</p>
+        <h4>Cena: 489,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Knjiga za Marka<br>Autor: Svetlana Velmar-Janković')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s3" src="slike/maliPrinc.jpg">
+        <p name="nazivKnjige">Mali princ<br>Autor:Antoan de Sent-Egzipe</p>
+        <h4>Cena: 399,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Mali princ<br>Autor:Antoan de Sent-Egziperi')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s4" src="slike/slikovnaEnciklopedije.jpg">
+        <p name="nazivKnjige">Slikovna enciklopedija<br>Autor: Grupa autora</p>
+        <h4>Cena: 190,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Slikovna enciklopedija<br>Autor: Grupa autora')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s5" src="slike/tataMeVoli.jpg">
+        <p name="nazivKnjige">Tata me voli<br>Autor: Izi Daun</p>
+        <h4>Cena: 985,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Tata me voli<br>Autor: Izi Daun')">Dodaj u korpu</button>
+      </div> 
+
+      <div class="knjiga">
+          <img id="s5" src="slike/svemirZa30sekundi.jpg">
+          <p name="nazivKnjige">Svemir za 30 sekundi<br>Autor: Klajv Giford</p>
+          <h4>Cena: 760,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Svemir za 30 sekundi<br>Autor: Klajv Giford')">Dodaj u korpu</button>
+      </div>
+
+      <div id="footer">
+      </div>
+
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+      <script src="./jquery/jqueryFile.js"></script>
+
+</body>
+</html>

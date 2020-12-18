@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domaci-CSS,HTML,JAVA SCRIPT,JQURY</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+    <img id="bookMark" src="slike/bookmark.png" >
+    <h3>Online prodavnica vaših omiljenih knjiga</h3>
+
+    <ul id="meni">
+        <li><a href="domaci.html">Početna strana</a></li>
+        <li><a href="knjigeZaDecu.html">Knjige za decu</a></li>
+        <li><a href="Akcije.html">Akcije</a></li>
+        <li class="trenutnaStrana"><a href="korpa.html">Korpa</a></li>
+        <li><a href="Informacije.html">Informacije</a></li>
+    </ul>
+    <h2>Vaša korpa</h2>
+
+    <ul id="listaKnjiga"></ul>
+      
+    <div id="divPorucivanje">
+        <h3>Unesite podatke kako bi uspešno naručili knjige:</h3>
+
+        <form id="formaPorucivanja" action="./domaci.html" method="POST">
+            <p>Popunite formu:</p>
+            <label for="ime">Ime:</label><br>
+            <input type="text" id="firstName"><br>
+            <label for="prezime">Prezime:</label><br>
+            <input type="text" id="lastName"><br><br>
+            <p>Izaberite način plaćanja:</p><br>
+            <input onclick="sakrijGotovina()" type="radio" name="dugme" value="Drugi radio button"checked>Gotovina<br>
+            <input  onclick="prikaziKartica()" id = "kartica" type="radio" name="dugme" value="Prvi radio button">Kartica<br><br>
+            <label  name="brojKartice" for="brojKartice">Broj kartice:</label><br>
+            <input type="text" name="brojKartice" id="brojKariceInput"><br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Izbrisi odgovore">
+        </form>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="./jquery/narucivanjeKnjiga.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domaci-CSS,HTML,JAVA SCRIPT,JQURY</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css" >
+
+</head>
+<body>
+  <script src="jquery/jqueryFile.js"></script>
+    <img id="bookMark" src="slike/bookmark.png" >
+    <h3>Online prodavnica vaših omiljenih knjiga</h3>
+
+     
+    <ul id="meni">
+      <li><a href="domaci.html">Početna strana</a></li>
+      <li><a href="knjigeZaDecu.html">Knjige za decu</a></li>
+      <li><a href="Akcije.html">Akcije</a></li>
+      <li><a href="korpa.html">Korpa</a></li>
+      <li class="trenutnaStrana"><a href="informacije.html">Informacije</a></li>
+    </ul>
+
+    <h3>O nama </h3>
+    <p> Knjižara BookMark je relativno nova knjižara, koja postoji i posluje od 2018 godine i 
+      isključivo je usmerena na online prodaju knjiga<br>Na stranicama našeg sajta možete pogledati celokupan sadržaj koji nudimo, 
+      kao knjige koje možete poručiti po trenutno sniženim cenama</p>
+
+      <label for="contact"><strong>Kontakt telefon:</strong> +381 11 4239-252 </label><br>
+      <label for="email"><strong>Email adresa:</strong>  office@bookmark.rs</label><br>
+ 
+
+      <p> <strong>Ukoliko imate bilo kakvih pitanja, možete nam ih postaviti putem forme:</strong><br><br>Kliknite na dugme <strong><i>"Pikaži"</i></strong> kako biste popunili formu</p><br>
+      
+      <button id="showForm">Prikaži</button>
+      <button id="hideForm">Sakrij</button>
+   
+      <form id="askQuestionForm">
+        <label for="imePrezime">Ime i prezime: </label><br>
+        <input type="text" id="ImePrezime"><br>
+        <label for="email"> Email adresa: </label><br>
+        <input type="text" id="email"><br>
+        <textarea id="komentar"  rows="10" cols="80"></textarea><br>
+  
+        <input type="submit" value="Pošalji pitanje" id="dugmePitanja">
+      </form>
+   
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+    <script src="./jquery/informacije.js"></script>
+    
+</body>
+</html>

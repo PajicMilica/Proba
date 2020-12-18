@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domaci-CSS,HTML,JAVA SCRIPT,JQURY</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css" >
+    
+</head>
+<body>
+
+  <script src="javaScript/javaScript.js"></script>
+
+    <img id="bookMark" src="slike/bookmark.png" >
+    <h3>Online prodavnica vaših omiljenih knjiga</h3>
+
+     
+    <ul id="meni">
+      <li><a href="domaci.html">Početna strana</a></li>
+      <li><a href="knjigeZaDecu.html">Knjige za decu</a></li>
+      <li class="trenutnaStrana"><a href="Akcije.html">Akcije</a></li>
+      <li><a href="korpa.html">Korpa</a></li>
+      <li><a href="Informacije.html">Informacije</a></li>
+  </ul>
+
+
+    <div class="knjiga">
+        <img id="s2"src="slike/budniU5.png">
+        <p name="nazivKnjige">Budni u 5 i vaš je čitav svet<br>Autor: Robin Šarma</p>
+        <h4>Cena: 630,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Budni u 5 i vaš je čitav svet<br>Autor: Robin Šarma')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s3" src="slike/cetiriZeneIzIstanbula.png">
+        <p name="nazivKnjige">Četiri žene iz Istanbula<br>Autor: Ajše Kulin</p>
+        <h4>Cena: 450,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Četiri žene iz Istanbula<br>Autor: Ajše Kulin')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s4" src="slike/bozicnePrice.png">
+        <p name="nazivKnjige">Božićne i novogodišnje priče<br>Autor: Grupa autora</p>
+        <h4>Cena: 900,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Božićne i novogodišnje priče<br>Autor: Grupa autora')">Dodaj u korpu</button>
+      </div>
+
+      <div class="knjiga">
+        <img id="s4" src="slike/misliIobogatiSe.png">
+        <p name="nazivKnjige">Misli i obogati se<br>Autor: Napoleon Hil</p>
+        <h4>Cena: 650,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Misli i obogati se<br>Autor: Napoleon Hil')">Dodaj u korpu</button>
+      </div>  
+
+      <div class="knjiga">
+          <img id="s5" src="slike/najlepseBajkeIprice.png">
+          <p name="nazivKnjige">Najlepše bajke i priče<br>Autor: Klajv Giford</p>
+          <h4>Cena: 500,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Najlepše bajke i priče<br>Autor: Klajv Giford')">Dodaj u korpu</button>
+      </div>
+
+      <div id="footer">
+      </div>
+
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+      <script src="./jquery/jqueryFile.js"></script>
+</body>
+</html>

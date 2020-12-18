@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domaci-CSS,HTML,JAVA SCRIPT,JQURY</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+
+    <img id="bookMark" src="slike/bookmark.png" >
+    <h3>Online prodavnica vaših omiljenih knjiga</h3>
+
+     
+    <ul id="meni">
+      <li class="trenutnaStrana"><a href="domaci.html">Početna strana</a></li>
+      <li><a href="knjigeZaDecu.html">Knjige za decu</a></li>
+      <li><a href="Akcije.html">Akcije</a></li>
+      <li><a href="korpa.html">Korpa</a></li>
+      <li><a href="Informacije.html">Informacije</a></li>
+    </ul>
+    <div id="knjige">
+      <div class="knjiga">
+        <img id="s1" src="slike/zatoStoTeVolim.jpg">
+        <p name="nazivKnjige">Zato što te volim<br>Autor: Gijom Muso</p>
+        <h4>Cena: 780,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Zato što te volim<br>Autor: Gijom Muso')">Dodaj u korpu</button>
+      </div>
+
+
+      <div class="knjiga">
+        <img id="s2"src="slike/prokletaAvlija.jpg">
+        <p name="nazivKnjige">Prokleta Avlija<br>Autor: Ivo Andrić</p>
+        <h4>Cena: 499,00 din.</h4>
+        <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Prokleta Avlija<br>Autor: Ivo Andrić')">Dodaj u korpu</button>
+
+      </div >
+
+        <div class="knjiga">
+          <img id="s3" src="slike/bogatiSiromasniOtac.jpg">
+          <p name="nazivKnjige">Bogati otac siromašni otac<br>Autor: Robert Kiosaki i Šeron Lehter</p>
+          <h4>Cena: 990,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Bogati otac siromašni otac<br>Autor: Robert Kiosaki i Šeron Lehter')">Dodaj u korpu</button>
+        </div>
+
+        <div class="knjiga">
+          <img id="s4" src="slike/isceliteSvojUm.jpg">
+          <p name="nazivKnjige">Iscelite svoj um<br>Autor: Mona Liza Šulc i Lujza Hej</p>
+          <h4>Cena: 1 118,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Iscelite svoj um<br>Autor: Mona Liza Šulc i Lujza Hej')">Dodaj u korpu</button>
+
+        </div>
+
+        <div class="knjiga">
+          <img id="s5" src="slike/kaludjer.jpg">
+          <p name="nazivKnjige">Kaluđer<br>Autor: Robin Šarma</p>
+          <h4>Cena:629,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Kaluđer<br>Autor: Robin Šarma')">Dodaj u korpu</button>
+        </div>
+
+    
+        <div class="knjiga">
+          <img id="s1" src="slike/ZovAndjela.jpg">
+          <p name="nazivKnjige">Zov Andjela<br>Autor: Gijom Muso</p>
+          <h4>Cena: 680,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Zov Andjela<br>Autor: Gijom Muso')">Dodaj u korpu</button>
+        </div>
+
+        <div class="knjiga">
+          <img id="s2"src="slike/DecaZla.jpg">
+          <p name="nazivKnjige">Deca zla<br>Autor: Miodrag Majić</p>
+          <h4>Cena: 764,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Deca zla<br>Autor: Miodrag Majić')">Dodaj u korpu</button>
+        </div>
+
+        <div class="knjiga">
+          <img id="s3" src="slike/PoredPuta.jpg">
+          <p name="nazivKnjige">Pored puta<br>Autor: Ivo Andri</p>
+          <h4>Cena: 1 200,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Pored puta<br>Autor: Ivo Andri')">Dodaj u korpu</button>
+        </div>
+
+        <div class="knjiga">
+          <img id="s5" src="slike/KakoBihBezTebe.jpg">
+          <p name="nazivKnjige">Kako bih bez tebe<br>Autor: Gijom Muso</p>
+          <h4>Cena: 675,00 din.</h4>
+          <button name="dodajUkorpuDugme" onclick="dodajUkorpu(this, 'Kako bih bez tebe<br>Autor: Gijom Muso')">Dodaj u korpu</button>
+        </div>
+    </div>
+      
+    <div id="footer">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="./jquery/jqueryFile.js"></script>
+</body>
+</html>
